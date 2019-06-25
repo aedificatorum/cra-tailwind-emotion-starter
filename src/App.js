@@ -36,7 +36,7 @@ const Octocat = () => {
 
 function App() {
   return (
-    <>
+    <React.Fragment>
       <Octocat/>
       <Section>
         <a href="https://facebook.github.io/create-react-app/">Create React App</a> with <a href="https://emotion.sh">Emotion</a> & <a href="https://tailwindcss.com">Tailwind CSS</a>
@@ -61,7 +61,7 @@ function App() {
       <Footer>
         Built by <a href="https://github.com/aedificatorum">Aedificatorum</a>.  Octocat SVG from <a href="http://tholman.com/github-corners/">GitHub Corners</a> by Tim Holman.
       </Footer>
-    </>
+    </React.Fragment>
   );
 }
 

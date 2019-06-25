@@ -1,3 +1,15 @@
+# Create React App with Emotion and Tailwind CSS
+
+[CRA](https://facebook.github.io/create-react-app/) with [emotion](https://emotion.sh) and [Tailwind CSS](https://tailwindcss.com).
+
+Configured with the help of the following blogs:
+- https://blog.nardsparagas.com/cra-and-tailwind/
+- https://wetainment.com/articles/tailwind-css-in-js/
+
+With a lovely corner icon from [GitHub Corners](http://tholman.com/github-corners/).
+
+--
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
