@@ -2,6 +2,34 @@
 
 [CRA](https://facebook.github.io/create-react-app/) with [emotion](https://emotion.sh) and [Tailwind CSS](https://tailwindcss.com).
 
+For examples of how to use the styles look in `App.js`.  To customise and extend Tailwind modify `src/tailwind.js`.  To add more than the `@base` Tailwind styles update `src/styles/tailwind.css`.
+
+## Changes
+
+- Adds the following dev dependencies
+  - autoprefixer
+  - npm-run-all
+  - postcss-cli
+  - tailwind.macro
+  - tailwindcss
+- Adds the following runtime dependencies
+  - @emotion/core
+  - @emotion/styled
+- Configured the `tw` macro at build-time in `babel-plugin-macros.config.js`
+- TailwindCSS configured in `src/styles/tailwind.js` (used by `tw` macro and PostCSS)
+- Tailwind static CSS configured in `src/tailwind.css` and output as `src/styles/tailwind.out.css`
+  - Output is in `.gitignore`
+  - Adds only the @base styles
+- PostCSS configured in `postcss.config.js`
+  - TailwindCSS and Autoprefixer
+- Scripts (build/start/watch) modified
+  - Invokes both react-scripts and postcss simultaneously
+  - postcss processes the Tailwind static CSS
+
+## Credits
+
+Built atop CRA by [Aedificatorum](https://github.com/aedificatorum).
+
 Configured with the help of the following blogs:
 - https://blog.nardsparagas.com/cra-and-tailwind/
 - https://wetainment.com/articles/tailwind-css-in-js/
