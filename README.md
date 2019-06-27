@@ -2,7 +2,7 @@
 
 [CRA](https://facebook.github.io/create-react-app/) with [emotion](https://emotion.sh) and [Tailwind CSS](https://tailwindcss.com).
 
-For examples of how to use the styles look in `App.js`.  To customise and extend Tailwind modify `src/tailwind.js`.  To add more than the `@base` Tailwind styles update `src/styles/tailwind.css`.
+For examples of how to use the styles look in `App.js`.  To customise and extend Tailwind modify `src/tailwind.js`.  To add your own css and leverage Tailwind [functions and directives](https://tailwindcss.com/docs/functions-and-directives) modify `src/styles/tailwind.css`.
 
 ## Changes
 
